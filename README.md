@@ -1,3 +1,7 @@
+Implement classical MergeSort and External Memory MergeSort (with 2-way merge in the internal memory). written a small program that generates random numbers
+and writes them directly into a file.
+
+Testing:
 A. Ways to create a virtual environment with Docker
 
 docker run -it -m 64MB -v /Users/Toru/Practice/Algorithm_Eng/Ex1/Experiment:/exp --name python python:3.9-slim bash
