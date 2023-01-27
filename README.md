@@ -4,9 +4,9 @@ and writes them directly into a file.
 Testing:
 A. Ways to create a virtual environment with Docker
 
-docker run -it -m 64MB -v /Users/Toru/Practice/Algorithm_Eng/Ex1/Experiment:/exp --name python python:3.9-slim bash
+docker run -it -m 64MB -v <directory> --name python python:3.9-slim bash
     
-** Use the file location instead of "/Users/Toru/Practice/Algorithm_Eng/Ex1/Experiment" above
+** Use the file location instead of "<directory>" above
 Now once you are inside docker container:
 
 apt-get update
